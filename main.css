@@ -1,0 +1,151 @@
+body {
+  text-align: center;
+  background-color: lightgrey;
+  font-family: 'Amaranth', sans-serif;
+}
+
+img {
+  height: 125px;
+  width: 125px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+table {
+  background-color: white;
+  border: 10px solid maroon;
+  border-radius: 20px;
+  margin: 20px auto 0;
+  box-shadow: -5px 5px 15px #888888;
+}
+
+button {
+  background-color: maroon;
+  color: white;
+  height: 30px;
+  width: 120px;
+  border-radius: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Amaranth', sans-serif;
+  margin: 15px 0;
+  border: none;
+  
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  box-shadow: -2px 2px 5px #888888;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 44px;
+  color: white;
+  background-color: maroon;
+  border-radius: 30px;
+  margin: 30px 0 20px;
+  padding: 5px 50px 5px 50px;
+  box-shadow: -5px 5px 15px #888888;
+}
+
+p {
+  font-weight: bold;
+  font-size: 20px;
+  color: maroon;
+  margin: 0;
+}
+
+h3, h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+ul {
+  position: relative;
+  left: -18px;
+}
+
+li {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li>img {
+  height: 50px;
+  width: 50px;
+}
+
+ul>li:first-of-type>p {
+  color: green;
+}
+
+ul>li:last-of-type>p {
+  color:crimson;
+}
+
+.cursor-hammer {
+   cursor: url(http://m-y-d-s.com/en/hand_tools/wooden_hammer/i4.gif), auto;
+}
+
+/*.cursor-pow {
+  cursor: url(http://smallbizsuperhero.com.au/wp-content/uploads/2015/02/bam.png), auto;
+}*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 586px) {
+  table {
+    width: 85%;
+    clear: both;
+  }
+  img {
+    height: 250px;
+    width: 250px;
+  }
+  button {
+    display: inline-block;
+    height: 100px;
+    width: 250px;
+    font-size: 36px;
+    margin: 20px 7.5% 20px;
+    float: right;
+  }
+  
+  h1 {
+    display: block;
+    margin: 20px 100px 20px;
+    font-size: 60px;
+  }
+  
+  p, h3, h4 {
+    font-size: 40px;
+    margin: 0 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  div {
+    display: inline-block;
+    float: left;
+    max-width: 50%;
+    margin: 20px 0 20px 7.5%;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+}
+
